@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { AiFillLinkedin } from "react-icons/ai";
-const PDF_URL = "http://localhost:3000/Resume.pdf"
+const PDF_URL = "https://fatima-abdullah.vercel.app//Resume.pdf"
 export default function Social() {
   const downloadResume =(url) =>{
     const fileName = url.split('/').pop();
