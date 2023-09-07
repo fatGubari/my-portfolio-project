@@ -20,7 +20,7 @@ const Work = () => {
               I am also good in version control systems, such as Git and GitHub.
             </p>
           </div>
-          <div className="w-full xl:max-w-[65%] mb-5 sm:mb-0">
+          <div className="w-full xl:max-w-[60%]">
             {/* slider */}
             <WorkSlider />
           </div>
