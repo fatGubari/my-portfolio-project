@@ -74,7 +74,7 @@ const aboutData = [
 const About = () => {
   const [index, setIndex] = useState(0);
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+    <div className="h-full bg-primary/30 py-32 text-center xl:text-left overflow-y-scroll scrollbar-thin scrollbar-dark md:overflow-y-hidden mt-3 sm:mt-0">
       <Circles />
 
       {/* avatar image */}
@@ -82,7 +82,7 @@ const About = () => {
         <Avatar />
       </motion.div> */}
 
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 overflow-y-scroll scrollbar-thin scrollbar-dark md:overflow-y-hidden">
         {/* text */}
         <div className="flex-1 flex flex-col justify-center">
           <h2 className="text-3xl md:text-5xl pb-5">

@@ -41,17 +41,17 @@ const Contact = () => {
     }
   };
   return (
-    <div className="h-full bg-primary/30 pt-5">
+    <div className="h-full bg-primary/30 pt-5  mt-3 sm:mt-0">
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
         {/* text & form */}
-        <div className="flex flex-col w-full max-w-[700px]">
+        <div className="flex flex-col w-full max-w-[700px] overflow-y-scroll scrollbar-thin scrollbar-dark md:overflow-y-hidden">
           {/* text */}
           <h2 className="h2 text-center mb-12">
             Lets <span className="text-accent"> connect. </span>
           </h2>
           {/* form */}
           <form
-            className="flex-1 flex flex-col gap-6 w-full mx-auto"
+            className="flex-1 flex flex-col gap-6 sm:w-full sm:mx-auto h-[50%]"
             onSubmit={onSubmit}
           >
             {/* input group */}
