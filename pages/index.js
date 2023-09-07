@@ -6,7 +6,7 @@ import { fadeIn } from "../variants";
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full  ">
-      <div className="h-full overflow-y-scroll scrollbar-thin scrollbar-dark md:overflow-y-hidden mt-3 sm:mt-0">
+      <div className="h-full overflow-y-scroll scrollbar-thin scrollbar-dark md:overflow-y-hidden">
         {/* text */}
         <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 ">
           <div className="text-center flex flex-col justify-center xl:pt-32 xl:text-left h-full container mx-auto">

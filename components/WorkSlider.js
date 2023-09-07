@@ -104,7 +104,7 @@ const WorkSlider = () => {
                       {/* overlay hover */}
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700">
                         {/* title */}
-                        <div className="w-full flex justify-center absolute bottom-0 translate-y-full group-hover:-translate-y-14 group-hover:xl:-translate-y-15  transition-all duration-300">
+                        <div className="w-full flex justify-center absolute bottom-0 translate-y-full group-hover:-translate-y-12 group-hover:xl:-translate-y-15  transition-all duration-300">
                           <div className="flex flex-col items-center gap-x-2">
                             {/* title */}
                             <div className="delay-100 text-xs sm:text-base">
