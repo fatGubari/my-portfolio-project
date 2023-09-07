@@ -46,12 +46,12 @@ const Contact = () => {
         {/* text & form */}
         <div className="flex flex-col w-full max-w-[700px] overflow-y-scroll scrollbar-thin scrollbar-dark md:overflow-y-hidden h-full">
           {/* text */}
-          <h2 className="h2 text-center mb-12">
+          <h2 className="h2 text-center mb-8">
             Lets <span className="text-accent"> connect. </span>
           </h2>
           {/* form */}
           <form
-            className="flex-1 flex flex-col gap-6 sm:w-full sm:mx-auto h-[50%]"
+            className="flex-1 flex flex-col gap-4 sm:w-full sm:mx-auto h-[50%]"
             onSubmit={onSubmit}
           >
             {/* input group */}
